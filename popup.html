@@ -1,24 +1,24 @@
-<!-- popup.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eye Strain Reducer</title>
-  <style>
-    body {
-      width: 250px;
-      height: 180px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h3>Eye Strain Reducer</h3>
-  <button id="toggleButton">Toggle Filter</button>
-  <div>
-    <label for="timerInput">Set Timer (seconds):</label>
-    <input type="number" id="timerInput" min="1" step="1" value="300">
+  <div id="popup-container">
+    <h3>Vision Vibe</h3>
+    <button id="toggleButton">Filter</button>
+
+    <div class="timer-container">
+      <label for="timer">Set Timer (minutes):</label>
+      <input type="number" id="timer" min="1">
+    </div>
+
+    <button id="startTimer">Start Timer</button>
+    <button id="startExercises">Start Eye Exercises</button>
   </div>
-  <div id="timer">00:00</div>
-  <button id="startTimer">Start Timer</button>
   <script src="popup.js"></script>
 </body>
 </html>
