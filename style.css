@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap')
+}
+
+#popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
+  min-height: 300px;
+  background:  #FFFFFF;
+  font: inter;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #FFA500; /* Orange background color */
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 0; /* Remove border radius */
+}
+
+button:hover {
+  background-color: #FF8C00; /* Slightly darker on hover */
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #FFA500; /* Orange border color */
+  border-radius: 0; /* Remove border radius */
+}
